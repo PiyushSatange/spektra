@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment-2</title>
+    <style>
+        fieldset{
+            width: 30%;
+            margin: auto;  
+            border-radius: 10px; 
+        }
+
+        .field{
+            width: fit-content;
+            margin: 20px auto;
+        }
+
+        input{
+            width: 350px;
+            height: 30px;
+        }
+
+        #reset{
+            width: 200px;
+            background-color: rgb(255, 185, 185);
+            border-radius: 5px;
+        }
+
+        #submit{
+            width: 200px;
+            background-color: rgb(182, 255, 182);
+            border-radius: 5px;
+        }
+        
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <fieldset>
+        <legend>Regestration Form</legend>
+        <form action="req" method="post">
+          <div class="field">
+            <label>Enter Your First Name:</label><br>
+            <input type="text" required /><br>
+          </div>
+          <div class="field">
+            <label>Enter Your Last Name:</label><br>
+            <input type="text" required /><br>
+          </div>
+          <div class="field">
+            <label>Enter Your Age:</label><br>
+            <input type="number" required /><br>
+          </div>
+          <div class="field">
+            <label>Enter Your Phone No:</label><br>
+            <input type="number" required /><br>
+          </div>
+          <div class="field">
+            <label>Enter Your Email ID:</label><br>
+            <input type="email" required /><br>
+          </div>
+          <div class="field">
+            <input type="reset" value="Cancle" id="reset"/>
+            <input type="submit" value="submit" id="submit"/>
+          </div>
+        </form>
+      </fieldset>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment-7</title>
+    <style>
+        fieldset{
+            width: 30%;
+            margin: auto;  
+            border-radius: 10px; 
+        }
+
+        .field{
+            width: fit-content;
+            margin: 20px;
+        }
+
+        input{
+            width: 20px;
+            height: 20px;
+        }
+
+        #reset{
+            width: 200px;
+            background-color: rgb(255, 185, 185);
+            border-radius: 5px;
+        }
+
+        #submit{
+            width: 200px;
+            background-color: rgb(182, 255, 182);
+            border-radius: 5px;
+        }
+        
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <fieldset>
+        <legend>Survey Form</legend>
+        <form action="req" method="post">
+          <div class="field">
+            <label>How much would you rate overall difficulty of the exam?</label><br>
+            <input type="radio" value="1" name="difficultyLevel"/>
+            <input type="radio" value="2" name="difficultyLevel"/>
+            <input type="radio" value="3" name="difficultyLevel"/>
+            <input type="radio" value="4" name="difficultyLevel"/>
+            <input type="radio" value="5" name="difficultyLevel"/>
+          </div>
+          <div class="field">
+            <label>Was the time allocated for the exam sufficient?</label><br>
+            <input type="radio" value="Yes" name="time"/><label>Yes</label>
+            <input type="radio" value="No" name="time"/><label>No</label>
+          </div>
+          <div class="field">
+            <label>Did you face any technical issues during the exam?</label><br>
+            <input type="radio" value="Yes" name="issue"/><label>Yes</label>
+            <input type="radio" value="No" name="issue"/><label>No</label>
+          </div>
+          <div class="field">
+            <label>How would you rate the clarity of exam instructions?</label><br>
+            <input type="radio" value="1 Star" name="instructionsClearity"/>
+            <input type="radio" value="2 Star" name="instructionsClearity"/>
+            <input type="radio" value="3 Star" name="instructionsClearity"/>
+            <input type="radio" value="4 Star" name="instructionsClearity"/>
+            <input type="radio" value="5 Star" name="instructionsClearity"/>
+          </div>
+          <div class="field">
+            <label>What did you like about the exam?</label><br>
+            <input type="checkbox" value="User Interface"/><label>User Interface</label><br>
+            <input type="checkbox" value="Difficulty Level"/><label>Difficulty Level</label><br>
+            <input type="checkbox" value="Codding Questions"/><label>Codding Questions</label><br>
+            <input type="checkbox" value="MCQ's"/><label>MCQ's</label><br>
+            <input type="checkbox" value="Theory Questions"/><label>Theory Questions</label><br>
+          </div>
+          <div class="field">
+            <label>Give us suggestion:</label><br>
+            <textarea cols="50" rows="10"></textarea>
+          </div>
+          <div class="field">
+            <input type="reset" value="Cancle" id="reset"/>
+            <input type="submit" value="submit" id="submit"/>
+          </div>
+        </form>
+      </fieldset>
+    </div>
+  </body>
+</html>

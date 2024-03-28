@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.basicInfo{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    background-color: rgb(255, 254, 214);
+}
+
+.info{
+    width: 45%;
+}
+
+.info h1{   
+    font-size: 70px;
+    margin-bottom: 50px;
+
+}
+
+.info h3{
+    font-size: 40px;
+    margin-bottom: 90px;
+}
+
+.shape{
+    background-color: rgb(216, 216, 111);
+    height: 100%;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.profile{
+    width: 45%;
+}
+
+.profile img{
+    height: 100%;
+    border-radius: 50%;
+    margin-left: 90px;
+}
+
+.socialMedia img{
+    width: 50px;
+    margin: 30px;
+}
+
+.item img{
+    width: 130px;
+    margin-left: 30px;
+}
+
+
+
+.gallary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px 5px rgb(158, 158, 158);
+}
+
+.item label{
+    margin: 80px;
+}
+
+.skills{
+    margin: 30px;
+}
+
+.skills h1{
+    text-align: center;
+}
+
+iframe{
+    border: none;
+    width: 40%;
+    height: 400px;
+    margin: 50px;
+}
+
+.education{
+    display: flex;
+    justify-content: space-evenly;
+}

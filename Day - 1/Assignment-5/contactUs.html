@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+
+      header {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      header a {
+        margin: 0 50px;
+        font-size: 20px;
+      }
+
+      #logo {
+        width: 100px;
+        height: 100px;
+      }
+
+      fieldset{
+        width: 400px;
+        margin: 20px auto;
+      }
+
+      input{
+        width: 96%;
+        height: 30px;
+        margin-bottom: 30px;
+      }
+
+      #reset{
+        width: 40%;
+        margin: 0 20px;
+        background-color: rgb(255, 159, 159);
+      }
+
+      #submit{
+        width: 40%;
+        margin: 0;
+        background-color: rgb(157, 255, 157);
+      }
+
+      footer {
+        background-color: black;
+        color: white;
+        height: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="/hotel-logo.jpeg" alt="logo" id="logo" />
+      <a href="/index.html">Home</a>
+      <a href="/content.html">Content Details</a>
+      <a href="/aboutUs.html">About Us</a>
+      <a href="/contactUs.html">Contact Us</a>
+    </header>
+    <div class="container">
+      <fieldset>
+        <legend>Contact Form</legend>
+        <form action="req" method="post">
+          <div>
+            <label>Enter your name:</label><br><input type="text" required />
+          </div>
+          <div>
+            <label>Enter your number:</label><br><input type="number" required />
+          </div>
+          <div>
+            <label>Enter your email:</label><br><input type="email" required />
+          </div>
+          <div><label>Write your message:</label><br><textarea rows="8" cols="49"></textarea></div>
+          <div><input type="reset" id="reset"><input type="submit" id="submit"></div>
+        </form>
+      </fieldset>
+    </div>
+    <footer>
+      <p style="text-align: center;">All rights are reserved 2024</p>
+      <p style="text-align: center;">Address: 4th block, koramangala, Bangalore, Karnataka</p>
+  </footer>
+  </body>
+</html>

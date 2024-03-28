@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100vw;
+    background-color: rgb(247, 246, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 60px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.main-div{
+    /* background-color: rgb(210, 235, 255); */
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px dashed blue; */
+}
+
+.main-div-1{
+    /* background-color: rgb(246, 236, 255); */
+    width: 47%;
+}
+
+input[type=text], input[type=number], input[type=email], input[type=Password], input[type=date], input[type=range]{
+    width: 99%;
+    height: 30px;
+}
+
+input{
+    background-color: rgbf(1, 250, 250);
+}
+
+input[type=checkbox], input[type=radio]{
+    width: 25px;
+    height: 25px;
+}
+
+input[type=reset]{
+    width: 47%;
+    height: 30px;
+    background-color: rgb(142, 142, 255);
+    cursor: pointer;
+}
+
+.radio{
+    display: flex;
+}
+
+input[type=radio] + label{
+    top: -7px;
+    position: relative;
+    left: 15px;
+    margin-right: 50px;
+}
+
+select{
+    width: 100%;
+    height: 34px;
+
+}
+
+textarea{
+    width: 100%;
+    height: 80%;
+}
+
+input[type=checkbox] + label{
+    top: -7px;
+    position: relative;
+    left: 15px;
+}
+
+#submit{
+    width: 33%;
+    height: 30px;
+    background-color: rgb(142, 142, 255);
+    cursor: pointer;
+    position: relative;
+    top: -55px;
+    right: -260px;
+}
+
+#submit:active #from{
+    filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+table, td, tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+#msg{
+    color: green;
+}
+
+td:first-child{
+    text-align: center;
+}
+
+td:nth-child(2){
+    width: 315px;
+    padding-left: 20px;
+}
+
+.showData{
+    height: 400px;
+    width: 500px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(204, 200, 255);
+    position: absolute;
+    border: 2px solid blue;
+}
+
+#okay{
+    width: 33%;
+    height: 30px;
+    background-color: rgb(142, 142, 255);
+    cursor: pointer;
+}
+
+.blur-element{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    display: none;
+}
