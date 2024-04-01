@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/0ccf0e2a37.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid p-0">
+      <div class="row p-0 m-0">
+        <div class="col-2 m-0 p-0 bg-dark text-white">
+          <p class="px-2 pt-2">Company Name</p>
+        </div>
+        <div class="col-9 m-0 p-0 bg-dark bg-opacity-75">
+          <input type="text" placeholder="Search" id="search-bar" />
+        </div>
+        <div class="col-1 m-0 p-0 bg-dark text-white">
+          <p class="text-center px-2 pt-2">Sign Out</p>
+        </div>
+      </div>
+      <div class="row p-0 m-0">
+        <div class="col-2 m-0 p-0" style="background-color: rgb(242, 242, 242)">
+          <ul type="none">
+            <li>
+              <i class="fa-solid fa-house py-3 pe-3 text-secondary"></i
+              >Dashboard
+            </li>
+            <li>
+              <i class="fa-regular fa-file py-3 pe-3 text-secondary"></i>Orders
+            </li>
+            <li>
+              <i class="fa-solid fa-cart-shopping py-3 pe-3 text-secondary"></i
+              >Products
+            </li>
+            <li>
+              <i class="fa-regular fa-user py-3 pe-3 text-secondary"></i
+              >Customers
+            </li>
+            <li>
+              <i class="fa-solid fa-chart-simple py-3 pe-3 text-secondary"></i
+              >Reports
+            </li>
+            <li>
+              <i class="fa-solid fa-layer-group py-3 pe-3 text-secondary"></i
+              >Integration
+            </li>
+            <li class="pt-3">
+              Saved Reports<i class="fa-solid fa-plus ps-5 text-secondary"></i>
+            </li>
+            <li>
+              <i class="fa-solid fa-file-lines py-3 pe-3 text-secondary"></i
+              >Current Month
+            </li>
+            <li>
+              <i class="fa-solid fa-file-lines py-3 pe-3 text-secondary"></i
+              >Last Quarter
+            </li>
+            <li>
+              <i class="fa-solid fa-file-lines py-3 pe-3 text-secondary"></i
+              >Social Engagement
+            </li>
+            <li>
+              <i class="fa-solid fa-file-lines py-3 pe-3 text-secondary"></i
+              >Year-end Sale
+            </li>
+          </ul>
+        </div>
+        <div class="col-10 py-3">
+          <div class="border-bottom">
+            <div class="float-start">
+              <h3>Dashboard</h3>
+            </div>
+            <div class="float-end">
+              <button class="btn border border-2 p-0 px-1">Share</button>
+              <button class="btn border border-2 p-0 px-1">Export</button>
+              <select class="btn border border-2 p-0 px-1">
+                <i class="fa-regular fa-calendar"></i
+                ><i class="fa-solid fa-caret-down"></i>
+                <option value="">This Weak</option>
+                <option value="">This Month</option>
+                <option value="">This Year</option>
+              </select>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="container row">
+            <div class="col-1">
+              <p style="margin-left: 70px">26000</p>
+              <p class="no-notation">24000</p>
+              <p class="no-notation">22000</p>
+              <p class="no-notation">20000</p>
+              <p class="no-notation">18000</p>
+              <p class="no-notation">16000</p>
+              <p class="no-notation">14000</p>
+              <p class="no-notation">12000</p>
+            </div>
+            <div class="col-11 mt-3">
+              <table>
+                <tbody>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="line" id="line-1"></div>
+              <div class="line" id="line-2"></div>
+              <div class="line" id="line-3"></div>
+              <div class="line" id="line-4"></div>
+              <div class="line" id="line-5"></div>
+              <div class="round" id="round-1" data-toggle="tooltip" title="14000 Sunday"></div>
+              <div class="round" id="round-2" data-toggle="tooltip" title="22000 Monday"></div>
+              <div class="round" id="round-3" data-toggle="tooltip" title="20000 Tuesday"></div>
+              <div class="round" id="round-4" data-toggle="tooltip" title="25000 Wednesday"></div>
+              <div class="round" id="round-5" data-toggle="tooltip" title="23500 Friday"></div>
+              <div class="round" id="round-6" data-toggle="tooltip" title="12000 Saturday"></div>
+            </div>
+          </div>
+          <div class="ps-5 ms-5 d-flex notation-box">
+            <p class="text-notation">Sunday</p>
+            <p class="text-notation">Monday</p>
+            <p class="text-notation">Tuesday</p>
+            <p class="text-notation">Wednesday</p>
+            <p class="text-notation">Thursday</p>
+            <p class="text-notation">Friday</p>
+            <p class="text-notation">Saturday</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

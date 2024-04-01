@@ -1,0 +1,27 @@
+.image{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(151, 151, 151);
+}
+
+
+.nav-boxx{
+    width: 150px;
+    text-align: center;
+}
+
+.nav-boxx:hover{
+    background-color: #7330f9;
+    font-weight: bold;
+}
+
+.nav-boxx:hover a{
+    color: white;
+}

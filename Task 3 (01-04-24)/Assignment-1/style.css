@@ -1,0 +1,35 @@
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar-brand{
+    width: 33.333%;
+}
+
+.nav-item:hover{
+    background-color: #0d6efd;
+}
+
+.image-info{
+    background-color: #2b3139;
+}
+
+.info-container{
+    height: 546px;
+    padding-left: 240px;
+}
+
+@media only screen and (max-width: 991px) {
+    img {
+      width: 100%;
+    }
+
+    .info-container{
+        height: 300px;
+        display: block;
+        padding: 20px;
+    }
+
+    
+  }

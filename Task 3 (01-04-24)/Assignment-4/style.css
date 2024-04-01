@@ -1,0 +1,27 @@
+a{
+    text-decoration: none;
+    color: rgb(151, 151, 151);
+}
+
+
+.nav-boxx{
+    width: 150px;
+    text-align: center;
+}
+
+.nav-boxx:hover{
+    background-color: #7330f9;
+    font-weight: bold;
+}
+
+.nav-boxx:hover a{
+    color: white;
+}
+
+#ribbon{
+    background-color: #7330f918;
+    width: max-content;
+    padding: 3px 7px;
+    color: #7330f9;
+    border-radius: 15px;
+}

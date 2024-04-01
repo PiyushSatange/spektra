@@ -1,0 +1,29 @@
+ul li i:first-child{
+    padding-right: 5px;
+}
+
+ul li i:nth-child(2){
+    float: right;
+    position: relative;
+    top: 6px;
+    
+}
+
+.side-bar{
+    font-size: 15px;
+}
+
+.card-icon{
+    background-color: #787afc55;
+    width: 60px;
+    height: 60px;
+}
+
+li{
+    padding: 0 10px;
+}
+
+li:hover{
+    background-color: #787afc56;
+    color: #787bfc;
+}
