@@ -27,3 +27,11 @@ li:hover{
     background-color: #787afc56;
     color: #787bfc;
 }
+
+.my-card{
+    cursor: pointer;
+}
+
+.my-card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
