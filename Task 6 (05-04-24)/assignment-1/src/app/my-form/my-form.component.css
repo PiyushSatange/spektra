@@ -1,0 +1,16 @@
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td{
+    padding: 10px;
+}
+
+tr:nth-child(odd){
+    background-color: aliceblue;
+}
+
+th{
+    background-color: rgb(212, 165, 255);
+}

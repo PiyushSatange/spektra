@@ -1,0 +1,22 @@
+<div>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+                @for (item of Products; track $index) {
+                    <tr>
+                        <td>{{item.id}}</td>
+                        <td>{{item.title}}</td>
+                        <td>{{item.quantity}}</td>
+                        <td>{{item.price}}</td>
+                    </tr>
+                }
+        </tbody>
+    </table>
+</div>

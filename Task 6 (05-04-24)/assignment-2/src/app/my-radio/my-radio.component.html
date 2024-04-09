@@ -1,0 +1,12 @@
+<div>
+    <input type="radio" name="check" value="valid" (click)="checkValid(radio1.value)" #radio1>
+    <label>Valid</label><br>
+    <input type="radio" name="check" value="invalid" (click)="checkValid(radio2.value)" #radio2>
+    <label>In-Valid</label>
+    @if(isValid == true){
+        <p>Data is Valid</p>
+    }
+    @if(isValid == false){
+        <p>Data is Invalid</p>
+    }
+</div>

@@ -1,0 +1,13 @@
+<div class="row row-cols">
+    @for (item of appliancesArray; track $index) {
+        <div class="col-3 border border-2 mx-5 my-4">
+            <div>
+                <h4>{{item.title}}</h4>
+            </div>
+            <div>
+                <img [src]="item.imgsrc" alt="Image" class="img-fluid">
+            </div>
+            
+        </div>
+    }
+</div>

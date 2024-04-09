@@ -1,0 +1,9 @@
+div{
+    background-color: aliceblue;
+    border: 1px solid blue;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 20px;
+    text-align: center;
+    margin: 10px auto;
+}

@@ -1,0 +1,16 @@
+<div>
+    <form>
+        <label>Enter Your Name:</label><br>
+        <input type="text" id="text1" (keyup)="checkPress($event.key)"><br>
+        <label>Enter Your Age:</label><br>
+        <input type="number" id="text2" (keyup)="checkPress($event.key)"><br>
+    </form>
+    <button [disabled]="isDisable" (click)="showData()">Submit</button>
+</div>
+
+@if (name!="" && age != 0) {
+    <div class="div2">
+        <p>Your Name is: {{name}}</p>
+        <p>Your Age is: {{age}}</p>
+    </div>
+}

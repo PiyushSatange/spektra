@@ -1,0 +1,31 @@
+<div>
+    <h1>Parent Component</h1>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>DOB</th>
+        <th>Fees</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for(student of studentData; track student){
+      <tr>
+        <td>{{ student.sId }}</td>
+        <td>{{ student.sName }}</td>
+        <td>{{ student.sGender }}</td>
+        <td>{{ student.sDOB }}</td>
+        <td>{{ student.cFees }}</td>
+      </tr>
+    }
+    </tbody>
+  </table>
+
+  <app-child
+    [TotalStudent]="studentData.length"
+    [TotalMale]="totalMale"
+    [TotalFemale]="totalFemale"
+  ></app-child>
+</div>

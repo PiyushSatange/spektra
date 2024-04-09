@@ -1,0 +1,13 @@
+<div class="row row-cols">
+    @for (item of categoryArray; track $index) {
+        <div class="col border border-2 p-4 mx-5 my-4" [routerLink]="item.link">
+            <h3>{{item.title}}</h3>
+            <div>
+                <img [src]="item.imgsrc" alt="Image" class="img-fluid">
+            </div>
+            <div>
+
+            </div>
+        </div>
+    }
+</div>

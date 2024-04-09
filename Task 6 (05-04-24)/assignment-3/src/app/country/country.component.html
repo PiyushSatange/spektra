@@ -1,0 +1,29 @@
+<div id="container">
+    <label>Select Your Country : </label>
+    <select [(ngModel)]="country">
+        <option value="India">India</option>
+        <option value="China">China</option>
+        <option value="Germany">Germany</option>
+        <option value="Japan">Japan</option>
+        <option value="USA">USA</option>
+    </select>
+    <div [ngSwitch]="country">
+        @switch (country) {
+            @case ("India") {
+            <p>Your have selected India</p>
+            }
+            @case ("China") {
+            <p>Your have selected China</p>
+            }
+            @case ("Germany") {
+            <p >Your have selected Germany</p>
+            }
+            @case ("Japan") {
+            <p>Your have selected Japan</p>
+            }
+            @case ("USA") {
+            <p>Your have selected USA</p>
+            }
+        }
+    </div>
+</div>

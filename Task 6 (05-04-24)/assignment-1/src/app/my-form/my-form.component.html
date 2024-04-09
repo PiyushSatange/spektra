@@ -1,0 +1,24 @@
+<div>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>e-Mail</th>
+                <th>City</th>
+                <th>Phone No</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for(user of userData; track user){
+            <tr>
+                <td>{{user.id}}</td>
+                <td>{{user.name}}</td>
+                <td>{{user.mail}}</td>
+                <td>{{user.city}}</td>
+                <td>{{user.no}}</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>
