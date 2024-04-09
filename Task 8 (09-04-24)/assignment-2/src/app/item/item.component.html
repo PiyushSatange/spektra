@@ -1,0 +1,38 @@
+<app-navbar></app-navbar>
+<div class="row container m-5 ">
+    <div class="col-5 border border-2 rounded">
+        <img [src]="item.msrc" alt="image" class="img-fluid">
+    </div>
+    <div class="col-7 d-flex flex-column justify-content-around">
+        <h3>{{item.mdetails}}</h3>
+        <p>User Rating: {{star}}</p>
+        <h4>Rs. {{item.price}}</h4>
+        <div class="row row-cols">
+            <div class="col">
+                <img src="https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-returns._CB484059092_.png" alt="">
+                <p>Easy Return</p>
+            </div>
+            <div class="col">
+                <img src="https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-cod._CB485937110_.png" alt="">
+                <p>Pay on Delivery</p>
+            </div>
+            <div class="col">
+                <img src="https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/trust_icon_free_shipping_81px._CB630870460_.png" alt="">
+                <p>Free Delivery</p>
+            </div>
+            <div class="col">
+                <img src="https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-top-brand._CB617044271_.png" alt="">
+                <p>Top Brands</p>
+            </div>
+            <div class="col">
+                <img src="https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-amazon-delivered._CB485933725_.png" alt="">
+                <p>Fast Delivery</p>
+            </div>
+            <div class="col">
+                <img src="https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/Secure-payment._CB650126890_.png" alt="">
+                <p>Secure Payment</p>
+            </div>
+        </div>
+        <button class="btn btn-success w-100" [routerLink]="'/payment'">Buy Now</button>
+    </div>
+</div>

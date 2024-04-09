@@ -1,0 +1,22 @@
+<div>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Emp ID</th>
+                <th>Emp Name</th>
+                <th>Emp Designation</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (item of empArr; track $index) {
+                <tr>
+                    <td>{{item.empid}}</td>
+                    <td>{{item.empname}}</td>
+                    <td>{{item.empdesi}}</td>
+                    <td><button [routerLink]="item.empid">Details</button></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

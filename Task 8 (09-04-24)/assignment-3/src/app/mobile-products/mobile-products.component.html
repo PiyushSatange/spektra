@@ -1,0 +1,11 @@
+<app-navbar></app-navbar>
+<div class="row">
+    @for (item of medArr; track $index) {
+        <div class="col-3 border border-3 rounded mx-5 my-3 product" [routerLink]="'item/'+item.mid">
+            <h4>{{item.mtitle}}</h4>
+            <div >
+                <img [src]="item.msrc" alt="medicine" class="img-fluid">
+            </div>
+        </div>
+    }
+</div>

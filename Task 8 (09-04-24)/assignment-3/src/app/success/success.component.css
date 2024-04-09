@@ -1,0 +1,12 @@
+img{
+    width: 200px;
+
+}
+
+.container{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+}
