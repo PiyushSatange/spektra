@@ -1,0 +1,14 @@
+.slider-img{
+    width: 100vw;
+}
+
+.card{
+    cursor: pointer;
+    height: 250px;
+}
+.card:hover{
+    border: 2px solid rgb(193, 193, 193);
+}
+.card-img{
+    height: 80%;
+}

@@ -8,19 +8,11 @@ import { DatapageComponent } from './../datapage/datapage.component';
   styleUrl: './myform.component.css'
 })
 export class MyformComponent {
-    firstName : string | undefined;
-    lastName : string | undefined;
-    email : string | undefined;
-    password : string | undefined;
-
   constructor(private router: Router){}
-  onSubmit(){
+  onSubmit(first: string, last: string, email: string, pass: string){
     this.router.navigate(['/data'],{
-      queryParams:{
-        firstName:this.firstName,
-        lastName:this.lastName,
-        email:this.email,
-        password:this.password
+      state: {
+        first, last,email, pass
       }
     });
   }

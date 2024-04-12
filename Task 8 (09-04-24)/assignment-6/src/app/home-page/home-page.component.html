@@ -1,0 +1,18 @@
+<div class="d-flex slider-container overflow-hidden">
+    @for (item of sliderArr; track $index) {
+        <div class="img-div" [routerLink]="item.path">
+            <img [src]="item.imgsrc" alt="slider Image" class="slider-img">
+        </div>
+    }
+</div>
+
+<div class="d-flex justify-content-evenly mt-3">
+    @for (item of categoryArr; track $index) {
+        <div>
+        <div class="card mx-2" [routerLink]="item.path"> 
+            <img [src]="item.imgsrc" alt="image" class="card-img">
+        </div>
+        <h2>{{item.title}}</h2>
+        </div>
+    }
+</div>

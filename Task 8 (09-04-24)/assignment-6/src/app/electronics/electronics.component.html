@@ -1,0 +1,10 @@
+<div class="img-div">
+    <img [src]="slider.imgsrc" alt="slider Image" class="slider-img">
+</div>
+<div class="d-flex justify-content-evenly mt-3">
+    @for (item of electronicsArr; track $index) {
+        <div class="card mx-2" [routerLink]="item.id"> 
+            <img [src]="item.imgsrc" alt="image" class="card-img">
+        </div>
+    }
+</div>

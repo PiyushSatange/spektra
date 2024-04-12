@@ -8,8 +8,8 @@ describe('SuccessComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [SuccessComponent]
-    })
+    imports: [SuccessComponent]
+})
     .compileComponents();
     
     fixture = TestBed.createComponent(SuccessComponent);

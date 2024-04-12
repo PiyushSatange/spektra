@@ -1,11 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { MedicineService } from '../services/medicine.service';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
+import { NavbarComponent } from '../navbar/navbar.component';
 
 @Component({
-  selector: 'app-item',
-  templateUrl: './item.component.html',
-  styleUrl: './item.component.css'
+    selector: 'app-item',
+    templateUrl: './item.component.html',
+    styleUrl: './item.component.css',
+    standalone: true,
+    imports: [NavbarComponent, RouterLink]
 })
 export class ItemComponent implements OnInit{
   id: number | undefined;

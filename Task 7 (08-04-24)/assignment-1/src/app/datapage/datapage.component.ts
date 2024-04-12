@@ -15,10 +15,9 @@ export class DatapageComponent implements OnInit{
   constructor(private route:ActivatedRoute){}
 
   ngOnInit(): void {
-      const params: Params = this.route.snapshot.queryParams;
-      this.firstName = params['firstName'],
-      this.lastName = params['lastName'],
-      this.email = params['email'],
-      this.password = params['password']
+      this.firstName = history.state.first;
+      this.lastName = history.state.last;
+      this.email = history.state.email;
+      this.password = history.state.pass;
     }
-}
+  }

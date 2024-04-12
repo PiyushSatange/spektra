@@ -1,0 +1,24 @@
+<app-navbar></app-navbar>
+<div class="row">
+    @for (item of medArr; track $index) {
+        <div class="col-3 border border-3 rounded mx-5 my-3 product" [routerLink]="'item/'+item.mid">
+            <h4>{{item.mtitle}}</h4>
+            <div >
+                <img [src]="item.msrc" alt="medicine" class="img-fluid">
+            </div>
+        </div>
+    }
+    <div class="col-3 border border-3 rounded mx-5 my-3 ">
+        <label>Enter the Title of Product:</label><br>
+        <input type="text" [(ngModel)]="mtitle" required><br>
+        <label>Enter the details of Product:</label><br>
+        <textarea cols="51" rows="3" required  [(ngModel)]="mdetails" ></textarea><br>
+        <label>Enter the Image URL:</label><br>
+        <input type="email" required [(ngModel)]="msrc" ><br>
+        <label>Enter the Rating of Product:</label><br>
+        <input type="number" max="5" min="0" [(ngModel)]="mrating"  required><br>
+        <label>Enter the Price of Product:</label><br>
+        <input type="number" [(ngModel)]="price"  required><br>
+        <button class="btn btn-success" (click)="onClick()">Confirm Order</button>
+    </div>
+</div>

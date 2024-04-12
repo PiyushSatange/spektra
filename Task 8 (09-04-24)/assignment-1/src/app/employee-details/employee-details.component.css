@@ -1,0 +1,10 @@
+table{
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 20px;
+    background-color: aliceblue;
+}
+
+td, th{
+    padding: 15px;
+}
