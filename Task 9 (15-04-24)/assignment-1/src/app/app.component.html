@@ -1,0 +1,20 @@
+<div>
+  <table>
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>User Name</th>
+        <th>Password</th>
+        <th>Job Description</th>
+      </tr>
+    </thead>
+    @for (user of userData; track $index) {
+      <tr>
+        <td>{{user.userid}}</td>
+        <td>{{user.username}}</td>
+        <td>{{user.password}}</td>
+        <td>{{user.job_description}}</td>
+      </tr>
+    }
+  </table>
+</div>

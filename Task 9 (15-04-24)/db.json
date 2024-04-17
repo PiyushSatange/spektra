@@ -1,0 +1,82 @@
+{
+  "products": [
+    {
+      "id": "a9e5",
+      "name": "Mouse",
+      "price": 1000,
+      "quantity": 5
+    }
+  ],
+  "users": [
+    {
+      "userid": 1,
+      "username": "alex",
+      "password": "X3YP9aR2",
+      "job_description": "Software Developer",
+      "id": "25ff"
+    },
+    {
+      "userid": 2,
+      "username": "bethany",
+      "password": "Zk8#2LwV",
+      "job_description": "Graphic Designer",
+      "id": "6aa7"
+    },
+    {
+      "userid": 3,
+      "username": "chris",
+      "password": "Fp3sV#4m",
+      "job_description": "Systems Analyst",
+      "id": "dd96"
+    },
+    {
+      "userid": 4,
+      "username": "diane",
+      "password": "Qm4^5Jw8",
+      "job_description": "Human Resources Manager",
+      "id": "38e0"
+    },
+    {
+      "userid": 5,
+      "username": "eddy",
+      "password": "Uj8*9Kp0",
+      "job_description": "Marketing Coordinator",
+      "id": "ced9"
+    },
+    {
+      "userid": 6,
+      "username": "fiona",
+      "password": "Tp5&7Ys1",
+      "job_description": "Sales Executive",
+      "id": "ff39"
+    },
+    {
+      "userid": 7,
+      "username": "george",
+      "password": "Wm5#4Zr3",
+      "job_description": "Data Scientist",
+      "id": "aed0"
+    },
+    {
+      "userid": 8,
+      "username": "hannah",
+      "password": "Yb7*1Vn2",
+      "job_description": "Accountant",
+      "id": "998a"
+    },
+    {
+      "userid": 9,
+      "username": "Josef",
+      "password": "Lq9&8Xp1",
+      "job_description": "Electrical Engineer",
+      "id": "85a6"
+    },
+    {
+      "userid": 10,
+      "username": "julie",
+      "password": "Rq4#3Mp8",
+      "job_description": "Content Writer",
+      "id": "46bf"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+div{
+    width: fit-content;
+    padding: 10px;
+    margin: auto;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+
+td, th{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+tr:nth-child(odd){
+    background-color: aliceblue;
+}
+
+thead tr{
+    background-color: rgb(192, 226, 255);
+}

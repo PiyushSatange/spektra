@@ -1,0 +1,28 @@
+<div class="container">
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+        @for (item of productData; track $index) {
+          <tr>
+            <th>{{item.id}}</th>
+            <td>{{item.name}}</td>
+            <td>{{item.price}}</td>
+            <td>{{item.quantity}}</td>
+            <td>
+              <button class="btn btn-danger me-3" (click)="onDelete(item.id)">Delete</button>
+              <button class="btn btn-primary" [routerLink]="'/edit/'+item.id">Edit</button>
+            </td>
+          </tr>
+        }
+          
+        </tbody>
+      </table>
+</div>
