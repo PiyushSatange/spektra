@@ -1,0 +1,7 @@
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\TeacherStudent\bin\Debug\TeacherStudent.exe.config
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\TeacherStudent\bin\Debug\TeacherStudent.exe
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\TeacherStudent\bin\Debug\TeacherStudent.pdb
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\TeacherStudent\obj\Debug\TeacherStudent.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\TeacherStudent\obj\Debug\TeacherStudent.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\TeacherStudent\obj\Debug\TeacherStudent.exe
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\TeacherStudent\obj\Debug\TeacherStudent.pdb

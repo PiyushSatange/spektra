@@ -1,0 +1,7 @@
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\payment\bin\Debug\payment.exe.config
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\payment\bin\Debug\payment.exe
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\payment\bin\Debug\payment.pdb
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\payment\obj\Debug\payment.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\payment\obj\Debug\payment.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\payment\obj\Debug\payment.exe
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\payment\obj\Debug\payment.pdb
