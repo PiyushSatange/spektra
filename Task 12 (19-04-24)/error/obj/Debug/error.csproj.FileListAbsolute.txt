@@ -1,0 +1,14 @@
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\error\bin\Debug\error.exe.config
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\error\bin\Debug\error.exe
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\error\bin\Debug\error.pdb
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\error\obj\Debug\error.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\error\obj\Debug\error.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\error\obj\Debug\error.exe
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\error\obj\Debug\error.pdb
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\error\bin\Debug\error.exe.config
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\error\bin\Debug\error.exe
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\error\bin\Debug\error.pdb
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\error\obj\Debug\error.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\error\obj\Debug\error.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\error\obj\Debug\error.exe
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\error\obj\Debug\error.pdb

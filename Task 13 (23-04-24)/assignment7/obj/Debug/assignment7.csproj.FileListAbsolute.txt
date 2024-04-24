@@ -1,0 +1,10 @@
+C:\Users\lenovo\Desktop\Spektra\Task 13 (23-04-24)\assignment7\bin\Debug\assignment7.exe.config
+C:\Users\lenovo\Desktop\Spektra\Task 13 (23-04-24)\assignment7\bin\Debug\assignment7.exe
+C:\Users\lenovo\Desktop\Spektra\Task 13 (23-04-24)\assignment7\bin\Debug\assignment7.pdb
+C:\Users\lenovo\Desktop\Spektra\Task 13 (23-04-24)\assignment7\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lenovo\Desktop\Spektra\Task 13 (23-04-24)\assignment7\bin\Debug\Newtonsoft.Json.xml
+C:\Users\lenovo\Desktop\Spektra\Task 13 (23-04-24)\assignment7\obj\Debug\assignment7.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\Spektra\Task 13 (23-04-24)\assignment7\obj\Debug\assignment7.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Spektra\Task 13 (23-04-24)\assignment7\obj\Debug\assignme.F286FBA3.Up2Date
+C:\Users\lenovo\Desktop\Spektra\Task 13 (23-04-24)\assignment7\obj\Debug\assignment7.exe
+C:\Users\lenovo\Desktop\Spektra\Task 13 (23-04-24)\assignment7\obj\Debug\assignment7.pdb

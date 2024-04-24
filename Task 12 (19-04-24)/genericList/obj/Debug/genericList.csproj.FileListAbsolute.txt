@@ -1,0 +1,7 @@
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\genericList\bin\Debug\genericList.exe.config
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\genericList\bin\Debug\genericList.exe
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\genericList\bin\Debug\genericList.pdb
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\genericList\obj\Debug\genericList.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\genericList\obj\Debug\genericList.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\genericList\obj\Debug\genericList.exe
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\genericList\obj\Debug\genericList.pdb

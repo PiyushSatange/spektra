@@ -1,0 +1,7 @@
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\assignment5\bin\Debug\assignment5.exe.config
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\assignment5\bin\Debug\assignment5.exe
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\assignment5\bin\Debug\assignment5.pdb
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\assignment5\obj\Debug\assignment5.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\assignment5\obj\Debug\assignment5.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\assignment5\obj\Debug\assignment5.exe
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\assignment5\obj\Debug\assignment5.pdb

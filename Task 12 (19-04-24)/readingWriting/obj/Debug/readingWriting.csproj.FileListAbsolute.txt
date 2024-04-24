@@ -1,0 +1,7 @@
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\readingWriting\bin\Debug\readingWriting.exe.config
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\readingWriting\bin\Debug\readingWriting.exe
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\readingWriting\bin\Debug\readingWriting.pdb
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\readingWriting\obj\Debug\readingWriting.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\readingWriting\obj\Debug\readingWriting.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\readingWriting\obj\Debug\readingWriting.exe
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\readingWriting\obj\Debug\readingWriting.pdb

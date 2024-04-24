@@ -1,0 +1,7 @@
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\indexer\bin\Debug\indexer.exe.config
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\indexer\bin\Debug\indexer.exe
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\indexer\bin\Debug\indexer.pdb
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\indexer\obj\Debug\indexer.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\indexer\obj\Debug\indexer.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\indexer\obj\Debug\indexer.exe
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\indexer\obj\Debug\indexer.pdb

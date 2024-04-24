@@ -1,0 +1,14 @@
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\createFile\bin\Debug\createFile.exe.config
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\createFile\bin\Debug\createFile.exe
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\createFile\bin\Debug\createFile.pdb
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\createFile\obj\Debug\createFile.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\createFile\obj\Debug\createFile.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\createFile\obj\Debug\createFile.exe
+C:\Users\lenovo\Desktop\Spektra\Task 11 (18-04-24)\createFile\obj\Debug\createFile.pdb
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\createFile\bin\Debug\createFile.exe.config
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\createFile\bin\Debug\createFile.exe
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\createFile\bin\Debug\createFile.pdb
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\createFile\obj\Debug\createFile.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\createFile\obj\Debug\createFile.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\createFile\obj\Debug\createFile.exe
+C:\Users\lenovo\Desktop\Spektra\Task 12 (19-04-24)\createFile\obj\Debug\createFile.pdb
