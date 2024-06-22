@@ -1,0 +1,223 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\MobileShoopy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16304EBF-4AD5-4833-8E5E-94B7F48BF4DC}|MobileShoopy.csproj|c:\\users\\lenovo\\desktop\\spektra\\task 21 (22-05-24)\\mobileshoopy\\controllers\\mobilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16304EBF-4AD5-4833-8E5E-94B7F48BF4DC}|MobileShoopy.csproj|solutionrelative:controllers\\mobilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304EBF-4AD5-4833-8E5E-94B7F48BF4DC}|MobileShoopy.csproj|c:\\users\\lenovo\\desktop\\spektra\\task 21 (22-05-24)\\mobileshoopy\\models\\mobile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16304EBF-4AD5-4833-8E5E-94B7F48BF4DC}|MobileShoopy.csproj|solutionrelative:models\\mobile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304EBF-4AD5-4833-8E5E-94B7F48BF4DC}|MobileShoopy.csproj|c:\\users\\lenovo\\desktop\\spektra\\task 21 (22-05-24)\\mobileshoopy\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16304EBF-4AD5-4833-8E5E-94B7F48BF4DC}|MobileShoopy.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304EBF-4AD5-4833-8E5E-94B7F48BF4DC}|MobileShoopy.csproj|c:\\users\\lenovo\\desktop\\spektra\\task 21 (22-05-24)\\mobileshoopy\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16304EBF-4AD5-4833-8E5E-94B7F48BF4DC}|MobileShoopy.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304EBF-4AD5-4833-8E5E-94B7F48BF4DC}|MobileShoopy.csproj|c:\\users\\lenovo\\desktop\\spektra\\task 21 (22-05-24)\\mobileshoopy\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16304EBF-4AD5-4833-8E5E-94B7F48BF4DC}|MobileShoopy.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304EBF-4AD5-4833-8E5E-94B7F48BF4DC}|MobileShoopy.csproj|c:\\users\\lenovo\\desktop\\spektra\\task 21 (22-05-24)\\mobileshoopy\\models\\onlinemobilesitecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16304EBF-4AD5-4833-8E5E-94B7F48BF4DC}|MobileShoopy.csproj|solutionrelative:models\\onlinemobilesitecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304EBF-4AD5-4833-8E5E-94B7F48BF4DC}|MobileShoopy.csproj|c:\\users\\lenovo\\desktop\\spektra\\task 21 (22-05-24)\\mobileshoopy\\models\\procedure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16304EBF-4AD5-4833-8E5E-94B7F48BF4DC}|MobileShoopy.csproj|solutionrelative:models\\procedure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304EBF-4AD5-4833-8E5E-94B7F48BF4DC}|MobileShoopy.csproj|c:\\users\\lenovo\\desktop\\spektra\\task 21 (22-05-24)\\mobileshoopy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16304EBF-4AD5-4833-8E5E-94B7F48BF4DC}|MobileShoopy.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304EBF-4AD5-4833-8E5E-94B7F48BF4DC}|MobileShoopy.csproj|c:\\users\\lenovo\\desktop\\spektra\\task 21 (22-05-24)\\mobileshoopy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{16304EBF-4AD5-4833-8E5E-94B7F48BF4DC}|MobileShoopy.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304EBF-4AD5-4833-8E5E-94B7F48BF4DC}|MobileShoopy.csproj|c:\\users\\lenovo\\desktop\\spektra\\task 21 (22-05-24)\\mobileshoopy\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16304EBF-4AD5-4833-8E5E-94B7F48BF4DC}|MobileShoopy.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16304EBF-4AD5-4833-8E5E-94B7F48BF4DC}|MobileShoopy.csproj|c:\\users\\lenovo\\desktop\\spektra\\task 21 (22-05-24)\\mobileshoopy\\mobileshoopy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{16304EBF-4AD5-4833-8E5E-94B7F48BF4DC}|MobileShoopy.csproj|solutionrelative:mobileshoopy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 240,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\MobileShoopy\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\MobileShoopy\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAzwGMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T04:45:07.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\MobileShoopy\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\MobileShoopy\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAswF8AAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T04:43:02.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\MobileShoopy\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\MobileShoopy\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T04:46:31.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MobileController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\MobileShoopy\\Controllers\\MobileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MobileController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\MobileShoopy\\Controllers\\MobileController.cs",
+              "RelativeToolTip": "Controllers\\MobileController.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAAwGUAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T04:40:59.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mobile.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\MobileShoopy\\Models\\Mobile.cs",
+              "RelativeDocumentMoniker": "Models\\Mobile.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\MobileShoopy\\Models\\Mobile.cs",
+              "RelativeToolTip": "Models\\Mobile.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAIwBMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T04:46:24.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OnlineMobileSiteContext.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\MobileShoopy\\Models\\OnlineMobileSiteContext.cs",
+              "RelativeDocumentMoniker": "Models\\OnlineMobileSiteContext.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\MobileShoopy\\Models\\OnlineMobileSiteContext.cs",
+              "RelativeToolTip": "Models\\OnlineMobileSiteContext.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAwwBcAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T04:39:45.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\MobileShoopy\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\MobileShoopy\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T17:15:48.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Procedure.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\MobileShoopy\\Models\\Procedure.cs",
+              "RelativeDocumentMoniker": "Models\\Procedure.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\MobileShoopy\\Models\\Procedure.cs",
+              "RelativeToolTip": "Models\\Procedure.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T07:12:26.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\MobileShoopy\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\MobileShoopy\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-01T17:13:13.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\MobileShoopy\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\MobileShoopy\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T04:46:47.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MobileShoopy.csproj",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\MobileShoopy\\MobileShoopy.csproj",
+              "RelativeDocumentMoniker": "MobileShoopy.csproj",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\MobileShoopy\\MobileShoopy.csproj",
+              "RelativeToolTip": "MobileShoopy.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-01T17:14:01.272Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 148,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

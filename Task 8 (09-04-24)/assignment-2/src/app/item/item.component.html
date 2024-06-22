@@ -1,10 +1,11 @@
 <app-navbar></app-navbar>
 <div class="row container m-5 ">
     <div class="col-5 border border-2 rounded">
-        <img [src]="item.msrc" alt="image" class="img-fluid">
+        <img [src]="item.src" alt="image" class="img-fluid">
     </div>
     <div class="col-7 d-flex flex-column justify-content-around">
-        <h3>{{item.mdetails}}</h3>
+        <h3>{{item.title}}</h3>
+        <h5>{{item.details}}</h5>
         <p>User Rating: {{star}}</p>
         <h4>Rs. {{item.price}}</h4>
         <div class="row row-cols">
@@ -33,6 +34,6 @@
                 <p>Secure Payment</p>
             </div>
         </div>
-        <button class="btn btn-success w-100" [routerLink]="'/payment'">Buy Now</button>
+        <button class="btn btn-success w-100" [routerLink]="'/payment/'+id">Buy Now</button>
     </div>
 </div>

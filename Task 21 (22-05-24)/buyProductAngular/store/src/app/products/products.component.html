@@ -1,0 +1,16 @@
+<h1 class="text-center">Products</h1>
+<div>
+    <div class="row m-auto">
+        @for(x of Products; track x){
+            <div class="card col-3 m-5" style="max-height: fit-content;">
+                <img [src]="x.url" class="card-img-top img-fluid" alt="img">
+                <div class="card-body">
+                  <h5 class="card-title">{{x.name}}, {{x.brand}}</h5>
+                  <h4 class="card-title">{{x.price}}</h4>
+                  <p class="card-text">{{x.quantity}}</p>
+                  <button class="btn btn-primary" (click)="buyNow(x.productId, x.url, x.price, x.quantity)">Buy Now</button>
+                </div>
+            </div>
+        }
+    </div>
+</div>

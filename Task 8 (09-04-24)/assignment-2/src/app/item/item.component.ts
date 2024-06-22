@@ -9,16 +9,18 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class ItemComponent implements OnInit{
   id: number | undefined;
-  item: any | undefined;
-  star: string = "";
-  constructor(private medicineservice:MedicineService, private activeroute:ActivatedRoute){}
+  item: any;
+  star: any = "";
+  constructor(private service:MedicineService, private activeroute:ActivatedRoute){}
     
   ngOnInit(): void {
     this.id = this.activeroute.snapshot.params['id'];
-    this.item = this.medicineservice.medicine.find(med => med.mid == this.id);
-    for(let i=1; i<=this.item.mrating; i++){
-      this.star += "⭐";
-    }
-    console.log(this.item);
+
+    this.service.getProductById(this.id).subscribe((data:any)=>{
+        this.item = data
+        for(let i=1; i<=data.rating; i++){
+        this.star += "⭐";
+      }
+    });
   }
 }

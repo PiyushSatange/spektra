@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="practiceModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Designation">
+          <Key>
+            <PropertyRef Name="emp_ID" />
+          </Key>
+          <Property Name="emp_ID" Type="int" Nullable="false" />
+          <Property Name="designation" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="employee">
+          <Key>
+            <PropertyRef Name="emp_ID" />
+          </Key>
+          <Property Name="emp_ID" Type="int" Nullable="false" />
+          <Property Name="emp_NAME" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="DEPT_NAME" Type="varchar" MaxLength="50" />
+          <Property Name="SALARY" Type="int" />
+        </EntityType>
+        <EntityType Name="users">
+          <Key>
+            <PropertyRef Name="user_id" />
+          </Key>
+          <Property Name="user_id" Type="int" Nullable="false" />
+          <Property Name="user_name" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="email" Type="varchar" MaxLength="50" />
+          <Property Name="amount" Type="int" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'practice.dbo.salaryView' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="salaryView">
+          <Key>
+            <PropertyRef Name="emp_id" />
+            <PropertyRef Name="emp_name" />
+          </Key>
+          <Property Name="emp_id" Type="int" Nullable="false" />
+          <Property Name="emp_name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="dept_name" Type="varchar" MaxLength="50" />
+          <Property Name="salary" Type="int" />
+        </EntityType>
+        <Function Name="employeeDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="fn_getAllEmployee" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="dept" Type="varchar" Mode="In" />
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="emp_ID" Type="int" Nullable="false" />
+                <Property Name="emp_NAME" Type="varchar" MaxLength="50" Nullable="false" />
+                <Property Name="DEPT_NAME" Type="varchar" MaxLength="50" />
+                <Property Name="SALARY" Type="int" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
+        </Function>
+        <Function Name="fn_getAllTables" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="id" Type="int" />
+                <Property Name="first_name" Type="varchar" MaxLength="100" />
+                <Property Name="dept_name" Type="varchar" MaxLength="100" />
+                <Property Name="salary" Type="int" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
+        </Function>
+        <Function Name="getAllTables" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="id" Type="int" />
+                <Property Name="name" Type="varchar" MaxLength="100" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
+        </Function>
+        <Function Name="getEmployeeTableBasedOnDept" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="dept" Type="varchar" Mode="In" />
+          <Parameter Name="salary" Type="int" Mode="In" />
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="emp_ID" Type="int" Nullable="false" />
+                <Property Name="emp_NAME" Type="varchar" MaxLength="50" Nullable="false" />
+                <Property Name="DEPT_NAME" Type="varchar" MaxLength="50" />
+                <Property Name="SALARY" Type="int" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
+        </Function>
+        <Function Name="pr_employee_grt" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="salary" Type="int" Mode="In" />
+        </Function>
+        <EntityContainer Name="practiceModelStoreContainer">
+          <EntitySet Name="Designation" EntityType="Self.Designation" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="employee" EntityType="Self.employee" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="salaryView" EntityType="Self.salaryView" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [salaryView].[emp_id] AS [emp_id], 
+    [salaryView].[emp_name] AS [emp_name], 
+    [salaryView].[dept_name] AS [dept_name], 
+    [salaryView].[salary] AS [salary]
+    FROM [dbo].[salaryView] AS [salaryView]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="practiceModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <ComplexType Name="fn_getAllEmployee_Result">
+          <Property Name="emp_ID" Type="Int32" Nullable="false" />
+          <Property Name="emp_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DEPT_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="SALARY" Type="Int32" />
+        </ComplexType>
+        <ComplexType Name="fn_getAllTables_Result">
+          <Property Name="id" Type="Int32" />
+          <Property Name="first_name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="dept_name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="salary" Type="Int32" />
+        </ComplexType>
+        <ComplexType Name="getAllTables_Result">
+          <Property Name="id" Type="Int32" />
+          <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+        </ComplexType>
+        <ComplexType Name="getEmployeeTableBasedOnDept_Result">
+          <Property Name="emp_ID" Type="Int32" Nullable="false" />
+          <Property Name="emp_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DEPT_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="SALARY" Type="Int32" />
+        </ComplexType>
+        <EntityType Name="Designation">
+          <Key>
+            <PropertyRef Name="emp_ID" />
+          </Key>
+          <Property Name="emp_ID" Type="Int32" Nullable="false" />
+          <Property Name="designation1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="employee">
+          <Key>
+            <PropertyRef Name="emp_ID" />
+          </Key>
+          <Property Name="emp_ID" Type="Int32" Nullable="false" />
+          <Property Name="emp_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DEPT_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="SALARY" Type="Int32" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="user_id" />
+          </Key>
+          <Property Name="user_id" Type="Int32" Nullable="false" />
+          <Property Name="user_name" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="amount" Type="Int32" />
+        </EntityType>
+        <EntityType Name="salaryView">
+          <Key>
+            <PropertyRef Name="emp_id" />
+            <PropertyRef Name="emp_name" />
+          </Key>
+          <Property Name="emp_id" Type="Int32" Nullable="false" />
+          <Property Name="emp_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="dept_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="salary" Type="Int32" />
+        </EntityType>
+        <EntityContainer Name="practiceEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Designations" EntityType="Self.Designation" />
+          <EntitySet Name="employees" EntityType="Self.employee" />
+          <EntitySet Name="users" EntityType="Self.user" />
+          <EntitySet Name="salaryViews" EntityType="Self.salaryView" />
+          <FunctionImport Name="fn_getAllEmployee" IsComposable="true" ReturnType="Collection(practiceModel.fn_getAllEmployee_Result)">
+            <Parameter Name="dept" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="fn_getAllTables" IsComposable="true" ReturnType="Collection(practiceModel.fn_getAllTables_Result)" />
+          <FunctionImport Name="getAllTables" IsComposable="true" ReturnType="Collection(practiceModel.getAllTables_Result)" />
+          <FunctionImport Name="getEmployeeTableBasedOnDept" IsComposable="true" ReturnType="Collection(practiceModel.getEmployeeTableBasedOnDept_Result)">
+            <Parameter Name="dept" Mode="In" Type="String" />
+            <Parameter Name="salary" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="employeeDetails" ReturnType="Collection(practiceModel.employeeDetails_Result)" />
+          <FunctionImport Name="pr_employee_grt" ReturnType="Collection(practiceModel.pr_employee_grt_Result)">
+            <Parameter Name="salary" Mode="In" Type="Int32" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="employeeDetails_Result">
+          <Property Type="Int32" Name="emp_ID" Nullable="false" />
+          <Property Type="String" Name="emp_NAME" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="DEPT_NAME" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="SALARY" Nullable="true" />
+          <Property Type="String" Name="designation" Nullable="true" MaxLength="50" />
+        </ComplexType>
+        <ComplexType Name="pr_employee_grt_Result">
+          <Property Type="Int32" Name="emp_ID" Nullable="false" />
+          <Property Type="String" Name="emp_NAME" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="DEPT_NAME" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="SALARY" Nullable="true" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="practiceModelStoreContainer" CdmEntityContainer="practiceEntities">
+          <EntitySetMapping Name="Designations">
+            <EntityTypeMapping TypeName="practiceModel.Designation">
+              <MappingFragment StoreEntitySet="Designation">
+                <ScalarProperty Name="emp_ID" ColumnName="emp_ID" />
+                <ScalarProperty Name="designation1" ColumnName="designation" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="employees">
+            <EntityTypeMapping TypeName="practiceModel.employee">
+              <MappingFragment StoreEntitySet="employee">
+                <ScalarProperty Name="emp_ID" ColumnName="emp_ID" />
+                <ScalarProperty Name="emp_NAME" ColumnName="emp_NAME" />
+                <ScalarProperty Name="DEPT_NAME" ColumnName="DEPT_NAME" />
+                <ScalarProperty Name="SALARY" ColumnName="SALARY" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="users">
+            <EntityTypeMapping TypeName="practiceModel.user">
+              <MappingFragment StoreEntitySet="users">
+                <ScalarProperty Name="user_id" ColumnName="user_id" />
+                <ScalarProperty Name="user_name" ColumnName="user_name" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="amount" ColumnName="amount" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="salaryViews">
+            <EntityTypeMapping TypeName="practiceModel.salaryView">
+              <MappingFragment StoreEntitySet="salaryView">
+                <ScalarProperty Name="emp_id" ColumnName="emp_id" />
+                <ScalarProperty Name="emp_name" ColumnName="emp_name" />
+                <ScalarProperty Name="dept_name" ColumnName="dept_name" />
+                <ScalarProperty Name="salary" ColumnName="salary" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionName="practiceModel.Store.fn_getAllEmployee" FunctionImportName="fn_getAllEmployee">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="practiceModel.fn_getAllEmployee_Result">
+                <ScalarProperty Name="emp_ID" ColumnName="emp_ID" />
+                <ScalarProperty Name="emp_NAME" ColumnName="emp_NAME" />
+                <ScalarProperty Name="DEPT_NAME" ColumnName="DEPT_NAME" />
+                <ScalarProperty Name="SALARY" ColumnName="SALARY" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionName="practiceModel.Store.fn_getAllTables" FunctionImportName="fn_getAllTables">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="practiceModel.fn_getAllTables_Result">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="first_name" ColumnName="first_name" />
+                <ScalarProperty Name="dept_name" ColumnName="dept_name" />
+                <ScalarProperty Name="salary" ColumnName="salary" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionName="practiceModel.Store.getAllTables" FunctionImportName="getAllTables">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="practiceModel.getAllTables_Result">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionName="practiceModel.Store.getEmployeeTableBasedOnDept" FunctionImportName="getEmployeeTableBasedOnDept">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="practiceModel.getEmployeeTableBasedOnDept_Result">
+                <ScalarProperty Name="emp_ID" ColumnName="emp_ID" />
+                <ScalarProperty Name="emp_NAME" ColumnName="emp_NAME" />
+                <ScalarProperty Name="DEPT_NAME" ColumnName="DEPT_NAME" />
+                <ScalarProperty Name="SALARY" ColumnName="SALARY" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="employeeDetails" FunctionName="practiceModel.Store.employeeDetails">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="practiceModel.employeeDetails_Result">
+                <ScalarProperty Name="emp_ID" ColumnName="emp_ID" />
+                <ScalarProperty Name="emp_NAME" ColumnName="emp_NAME" />
+                <ScalarProperty Name="DEPT_NAME" ColumnName="DEPT_NAME" />
+                <ScalarProperty Name="SALARY" ColumnName="SALARY" />
+                <ScalarProperty Name="designation" ColumnName="designation" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="pr_employee_grt" FunctionName="practiceModel.Store.pr_employee_grt">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="practiceModel.pr_employee_grt_Result">
+                <ScalarProperty Name="emp_ID" ColumnName="emp_ID" />
+                <ScalarProperty Name="emp_NAME" ColumnName="emp_NAME" />
+                <ScalarProperty Name="DEPT_NAME" ColumnName="DEPT_NAME" />
+                <ScalarProperty Name="SALARY" ColumnName="SALARY" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

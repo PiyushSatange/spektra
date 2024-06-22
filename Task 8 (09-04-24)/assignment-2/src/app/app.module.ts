@@ -8,6 +8,11 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { MedicineProductsComponent } from './medicine-products/medicine-products.component';
 import { PaymentPageComponent } from './payment-page/payment-page.component';
 import { SuccessComponent } from './success/success.component';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { AdminPanelComponent } from './admin-panel/admin-panel.component';
+import { AdminProductComponent } from './admin-product/admin-product.component';
+import { AdminOrdersComponent } from './admin-orders/admin-orders.component';
+
 
 @NgModule({
   declarations: [
@@ -16,12 +21,16 @@ import { SuccessComponent } from './success/success.component';
     NavbarComponent,
     MedicineProductsComponent,
     PaymentPageComponent,
-    SuccessComponent
+    SuccessComponent,
+    AdminPanelComponent,
+    AdminProductComponent,
+    AdminOrdersComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [
     provideClientHydration()

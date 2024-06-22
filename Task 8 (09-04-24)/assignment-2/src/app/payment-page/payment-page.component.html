@@ -1,14 +1,22 @@
 <app-navbar></app-navbar>
 <div class="container border border-2 rounded">
-    <form (submit)="onSubmit()">
-        <label>Enter Your First Name:</label><br>
-        <input type="text" required><br>
-        <label>Enter Your Last Name:</label><br>
-        <input type="text" required><br>
-        <label>Enter Your Email ID:</label><br>
-        <input type="email" required><br>
-        <label>Enter Your Address:</label><br>
-        <textarea cols="51" rows="5" required></textarea><br>
-        <button class="btn btn-success">Confirm Order</button>
+    <form #userForm="ngForm" (ngSubmit)="onSubmit(userForm)">
+      <label>Enter Your Name:</label><br>
+      <input type="text" name="name" ngModel required #name="ngModel"/><br>
+      
+      <label>Enter Your Email ID:</label><br>
+      <input type="email" name="mail" ngModel required #mail="ngModel"/><br>
+      
+      <label>Enter Your Number:</label><br>
+      <input type="number" name="number" ngModel required #number="ngModel"/><br>
+
+      <label>Enter Your City:</label><br>
+      <input type="text" name="city" ngModel required #city="ngModel"/><br>
+
+      <label>Enter the Quantity:</label><br>
+      <input type="number" name="Quantity" ngModel required #number="ngModel"/><br>
+      
+      <input class="btn btn-success" type="submit" value="Confirm Order" [disabled]="userForm.invalid">
     </form>
-</div>
+  </div>
+  

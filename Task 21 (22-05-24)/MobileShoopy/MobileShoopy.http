@@ -1,0 +1,6 @@
+@MobileShoopy_HostAddress = http://localhost:5001
+
+GET {{MobileShoopy_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

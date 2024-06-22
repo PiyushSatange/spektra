@@ -1,0 +1,6 @@
+@MedicalShoopy_HostAddress = http://localhost:5045
+
+GET {{MedicalShoopy_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

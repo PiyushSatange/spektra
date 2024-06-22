@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 20 (16-05-24)\\Assignment3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A31B7BEE-25AB-480D-A62F-A47E5A39CE0B}|Assignment3.csproj|c:\\users\\lenovo\\desktop\\spektra\\task 20 (16-05-24)\\assignment3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31B7BEE-25AB-480D-A62F-A47E5A39CE0B}|Assignment3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31B7BEE-25AB-480D-A62F-A47E5A39CE0B}|Assignment3.csproj|c:\\users\\lenovo\\desktop\\spektra\\task 20 (16-05-24)\\assignment3\\models\\practicecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31B7BEE-25AB-480D-A62F-A47E5A39CE0B}|Assignment3.csproj|solutionrelative:models\\practicecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31B7BEE-25AB-480D-A62F-A47E5A39CE0B}|Assignment3.csproj|c:\\users\\lenovo\\desktop\\spektra\\task 20 (16-05-24)\\assignment3\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A31B7BEE-25AB-480D-A62F-A47E5A39CE0B}|Assignment3.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 20 (16-05-24)\\Assignment3\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 20 (16-05-24)\\Assignment3\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T05:47:25.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PracticeContext.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 20 (16-05-24)\\Assignment3\\Models\\PracticeContext.cs",
+              "RelativeDocumentMoniker": "Models\\PracticeContext.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 20 (16-05-24)\\Assignment3\\Models\\PracticeContext.cs",
+              "RelativeToolTip": "Models\\PracticeContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T05:46:55.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 20 (16-05-24)\\Assignment3\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 20 (16-05-24)\\Assignment3\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAowFkAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T05:43:15.335Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

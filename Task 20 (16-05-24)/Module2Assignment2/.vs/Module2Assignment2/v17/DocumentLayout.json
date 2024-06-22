@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 20 (16-05-24)\\Module2Assignment2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7BDDF9-906B-42A4-A6CD-5ED424EC85C2}|Module2Assignment2.csproj|c:\\users\\lenovo\\desktop\\spektra\\task 20 (16-05-24)\\module2assignment2\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7BDDF9-906B-42A4-A6CD-5ED424EC85C2}|Module2Assignment2.csproj|solutionrelative:model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7BDDF9-906B-42A4-A6CD-5ED424EC85C2}|Module2Assignment2.csproj|c:\\users\\lenovo\\desktop\\spektra\\task 20 (16-05-24)\\module2assignment2\\model1.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0D7BDDF9-906B-42A4-A6CD-5ED424EC85C2}|Module2Assignment2.csproj|solutionrelative:model1.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7BDDF9-906B-42A4-A6CD-5ED424EC85C2}|Module2Assignment2.csproj|C:\\Users\\lenovo\\Desktop\\Spektra\\Task 20 (16-05-24)\\Module2Assignment2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7BDDF9-906B-42A4-A6CD-5ED424EC85C2}|Module2Assignment2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7BDDF9-906B-42A4-A6CD-5ED424EC85C2}|Module2Assignment2.csproj|C:\\Users\\lenovo\\Desktop\\Spektra\\Task 20 (16-05-24)\\Module2Assignment2\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0D7BDDF9-906B-42A4-A6CD-5ED424EC85C2}|Module2Assignment2.csproj|solutionrelative:model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7BDDF9-906B-42A4-A6CD-5ED424EC85C2}|Module2Assignment2.csproj|C:\\Users\\lenovo\\Desktop\\Spektra\\Task 20 (16-05-24)\\Module2Assignment2\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{0D7BDDF9-906B-42A4-A6CD-5ED424EC85C2}|Module2Assignment2.csproj|solutionrelative:model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 240,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Model1.tt",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 20 (16-05-24)\\Module2Assignment2\\Model1.tt",
+              "RelativeDocumentMoniker": "Model1.tt",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 20 (16-05-24)\\Module2Assignment2\\Model1.tt",
+              "RelativeToolTip": "Model1.tt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-21T04:55:08.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Model1.Context.tt",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 20 (16-05-24)\\Module2Assignment2\\Model1.Context.tt",
+              "RelativeDocumentMoniker": "Model1.Context.tt",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 20 (16-05-24)\\Module2Assignment2\\Model1.Context.tt",
+              "RelativeToolTip": "Model1.Context.tt",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-20T17:45:18.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Model1.Context.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 20 (16-05-24)\\Module2Assignment2\\Model1.Context.cs",
+              "RelativeDocumentMoniker": "Model1.Context.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 20 (16-05-24)\\Module2Assignment2\\Model1.Context.cs",
+              "RelativeToolTip": "Model1.Context.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAIwDIAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T12:58:55.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 20 (16-05-24)\\Module2Assignment2\\Model1.edmx",
+              "RelativeDocumentMoniker": "Model1.edmx",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 20 (16-05-24)\\Module2Assignment2\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-05-20T12:57:47.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 20 (16-05-24)\\Module2Assignment2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 20 (16-05-24)\\Module2Assignment2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T12:55:28.021Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 148,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

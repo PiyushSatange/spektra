@@ -1,0 +1,12 @@
+C:\Users\lenovo\Desktop\Spektra\Task 20 (16-05-24)\Assignment1\obj\Debug\Assignment1.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\Spektra\Task 20 (16-05-24)\Assignment1\obj\Debug\Assignment1.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Spektra\Task 20 (16-05-24)\Assignment1\bin\Debug\Assignment1.exe.config
+C:\Users\lenovo\Desktop\Spektra\Task 20 (16-05-24)\Assignment1\bin\Debug\Assignment1.exe
+C:\Users\lenovo\Desktop\Spektra\Task 20 (16-05-24)\Assignment1\bin\Debug\Assignment1.pdb
+C:\Users\lenovo\Desktop\Spektra\Task 20 (16-05-24)\Assignment1\bin\Debug\EntityFramework.dll
+C:\Users\lenovo\Desktop\Spektra\Task 20 (16-05-24)\Assignment1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lenovo\Desktop\Spektra\Task 20 (16-05-24)\Assignment1\bin\Debug\EntityFramework.xml
+C:\Users\lenovo\Desktop\Spektra\Task 20 (16-05-24)\Assignment1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lenovo\Desktop\Spektra\Task 20 (16-05-24)\Assignment1\obj\Debug\Assignme.A5F6ECAD.Up2Date
+C:\Users\lenovo\Desktop\Spektra\Task 20 (16-05-24)\Assignment1\obj\Debug\Assignment1.exe
+C:\Users\lenovo\Desktop\Spektra\Task 20 (16-05-24)\Assignment1\obj\Debug\Assignment1.pdb

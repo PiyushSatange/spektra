@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="practiceModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Designation">
+    <Key>
+      <PropertyRef Name="emp_ID" />
+    </Key>
+    <Property Name="emp_ID" Type="int" Nullable="false" />
+    <Property Name="designation" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="employee">
+    <Key>
+      <PropertyRef Name="emp_ID" />
+    </Key>
+    <Property Name="emp_ID" Type="int" Nullable="false" />
+    <Property Name="emp_NAME" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="DEPT_NAME" Type="varchar" MaxLength="50" />
+    <Property Name="SALARY" Type="int" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="user_id" Type="int" Nullable="false" />
+    <Property Name="user_name" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="50" />
+    <Property Name="amount" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'practice.dbo.salaryView' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="salaryView">
+    <Key>
+      <PropertyRef Name="emp_id" />
+      <PropertyRef Name="emp_name" />
+    </Key>
+    <Property Name="emp_id" Type="int" Nullable="false" />
+    <Property Name="emp_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="dept_name" Type="varchar" MaxLength="50" />
+    <Property Name="salary" Type="int" />
+  </EntityType>
+  <Function Name="employeeDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="fn_getAllEmployee" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="dept" Type="varchar" Mode="In" />
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="emp_ID" Type="int" Nullable="false" />
+          <Property Name="emp_NAME" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="DEPT_NAME" Type="varchar" MaxLength="50" />
+          <Property Name="SALARY" Type="int" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+  <Function Name="fn_getAllTables" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="id" Type="int" />
+          <Property Name="first_name" Type="varchar" MaxLength="100" />
+          <Property Name="dept_name" Type="varchar" MaxLength="100" />
+          <Property Name="salary" Type="int" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+  <Function Name="getAllTables" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="id" Type="int" />
+          <Property Name="name" Type="varchar" MaxLength="100" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+  <Function Name="getEmployeeTableBasedOnDept" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="dept" Type="varchar" Mode="In" />
+    <Parameter Name="salary" Type="int" Mode="In" />
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="emp_ID" Type="int" Nullable="false" />
+          <Property Name="emp_NAME" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="DEPT_NAME" Type="varchar" MaxLength="50" />
+          <Property Name="SALARY" Type="int" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+  <Function Name="pr_employee_grt" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="salary" Type="int" Mode="In" />
+  </Function>
+  <EntityContainer Name="practiceModelStoreContainer">
+    <EntitySet Name="Designation" EntityType="Self.Designation" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="employee" EntityType="Self.employee" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="salaryView" EntityType="Self.salaryView" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [salaryView].[emp_id] AS [emp_id], 
+    [salaryView].[emp_name] AS [emp_name], 
+    [salaryView].[dept_name] AS [dept_name], 
+    [salaryView].[salary] AS [salary]
+    FROM [dbo].[salaryView] AS [salaryView]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

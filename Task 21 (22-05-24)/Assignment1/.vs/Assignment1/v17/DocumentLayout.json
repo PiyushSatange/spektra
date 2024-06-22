@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\Assignment1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B0D25E4-024C-4BDC-B058-6AC258F1537A}|Assignment1.csproj|c:\\users\\lenovo\\desktop\\spektra\\task 21 (22-05-24)\\assignment1\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B0D25E4-024C-4BDC-B058-6AC258F1537A}|Assignment1.csproj|solutionrelative:product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B0D25E4-024C-4BDC-B058-6AC258F1537A}|Assignment1.csproj|C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\Assignment1\\storemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B0D25E4-024C-4BDC-B058-6AC258F1537A}|Assignment1.csproj|solutionrelative:storemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B0D25E4-024C-4BDC-B058-6AC258F1537A}|Assignment1.csproj|C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\Assignment1\\storemodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B0D25E4-024C-4BDC-B058-6AC258F1537A}|Assignment1.csproj|solutionrelative:storemodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B0D25E4-024C-4BDC-B058-6AC258F1537A}|Assignment1.csproj|C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\Assignment1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B0D25E4-024C-4BDC-B058-6AC258F1537A}|Assignment1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B0D25E4-024C-4BDC-B058-6AC258F1537A}|Assignment1.csproj|C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\Assignment1\\storemodel.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6B0D25E4-024C-4BDC-B058-6AC258F1537A}|Assignment1.csproj|solutionrelative:storemodel.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B0D25E4-024C-4BDC-B058-6AC258F1537A}|Assignment1.csproj|C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\Assignment1\\storemodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{6B0D25E4-024C-4BDC-B058-6AC258F1537A}|Assignment1.csproj|solutionrelative:storemodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B0D25E4-024C-4BDC-B058-6AC258F1537A}|Assignment1.csproj|C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\Assignment1\\storemodel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B0D25E4-024C-4BDC-B058-6AC258F1537A}|Assignment1.csproj|solutionrelative:storemodel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 240,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StoreModel.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\Assignment1\\StoreModel.cs",
+              "RelativeDocumentMoniker": "StoreModel.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\Assignment1\\StoreModel.cs",
+              "RelativeToolTip": "StoreModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T09:33:08.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\Assignment1\\Product.cs",
+              "RelativeDocumentMoniker": "Product.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\Assignment1\\Product.cs",
+              "RelativeToolTip": "Product.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T09:32:57.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StoreModel.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\Assignment1\\StoreModel.Designer.cs",
+              "RelativeDocumentMoniker": "StoreModel.Designer.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\Assignment1\\StoreModel.Designer.cs",
+              "RelativeToolTip": "StoreModel.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T09:22:31.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StoreModel.Context.tt",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\Assignment1\\StoreModel.Context.tt",
+              "RelativeDocumentMoniker": "StoreModel.Context.tt",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\Assignment1\\StoreModel.Context.tt",
+              "RelativeToolTip": "StoreModel.Context.tt",
+              "ViewState": "AQIAAL8AAAAAAAAAAAAAAKsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-22T09:22:24.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StoreModel.Context.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\Assignment1\\StoreModel.Context.cs",
+              "RelativeDocumentMoniker": "StoreModel.Context.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\Assignment1\\StoreModel.Context.cs",
+              "RelativeToolTip": "StoreModel.Context.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAAAGkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T07:46:42.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StoreModel.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\Assignment1\\StoreModel.edmx",
+              "RelativeDocumentMoniker": "StoreModel.edmx",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\Assignment1\\StoreModel.edmx [Diagram1]",
+              "RelativeToolTip": "StoreModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-05-22T07:45:54.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\Assignment1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\Assignment1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwCQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T07:30:04.192Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 148,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

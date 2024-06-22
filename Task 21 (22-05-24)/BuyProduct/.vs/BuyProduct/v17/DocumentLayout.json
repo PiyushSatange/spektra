@@ -1,0 +1,175 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\BuyProduct\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9FEE222D-4730-47E3-8128-416B11FBDF6B}|BuyProduct.csproj|c:\\users\\lenovo\\desktop\\spektra\\task 21 (22-05-24)\\buyproduct\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FEE222D-4730-47E3-8128-416B11FBDF6B}|BuyProduct.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FEE222D-4730-47E3-8128-416B11FBDF6B}|BuyProduct.csproj|c:\\users\\lenovo\\desktop\\spektra\\task 21 (22-05-24)\\buyproduct\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9FEE222D-4730-47E3-8128-416B11FBDF6B}|BuyProduct.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FEE222D-4730-47E3-8128-416B11FBDF6B}|BuyProduct.csproj|c:\\users\\lenovo\\desktop\\spektra\\task 21 (22-05-24)\\buyproduct\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FEE222D-4730-47E3-8128-416B11FBDF6B}|BuyProduct.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FEE222D-4730-47E3-8128-416B11FBDF6B}|BuyProduct.csproj|c:\\users\\lenovo\\desktop\\spektra\\task 21 (22-05-24)\\buyproduct\\models\\store1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FEE222D-4730-47E3-8128-416B11FBDF6B}|BuyProduct.csproj|solutionrelative:models\\store1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FEE222D-4730-47E3-8128-416B11FBDF6B}|BuyProduct.csproj|c:\\users\\lenovo\\desktop\\spektra\\task 21 (22-05-24)\\buyproduct\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FEE222D-4730-47E3-8128-416B11FBDF6B}|BuyProduct.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FEE222D-4730-47E3-8128-416B11FBDF6B}|BuyProduct.csproj|c:\\users\\lenovo\\desktop\\spektra\\task 21 (22-05-24)\\buyproduct\\buyproduct.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{9FEE222D-4730-47E3-8128-416B11FBDF6B}|BuyProduct.csproj|solutionrelative:buyproduct.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FEE222D-4730-47E3-8128-416B11FBDF6B}|BuyProduct.csproj|c:\\users\\lenovo\\desktop\\spektra\\task 21 (22-05-24)\\buyproduct\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FEE222D-4730-47E3-8128-416B11FBDF6B}|BuyProduct.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FEE222D-4730-47E3-8128-416B11FBDF6B}|BuyProduct.csproj|c:\\users\\lenovo\\desktop\\spektra\\task 21 (22-05-24)\\buyproduct\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FEE222D-4730-47E3-8128-416B11FBDF6B}|BuyProduct.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 240,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\BuyProduct\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\BuyProduct\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T06:51:55.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\BuyProduct\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\BuyProduct\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T06:51:47.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\BuyProduct\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\BuyProduct\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAIwBEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T06:51:38.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\BuyProduct\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\BuyProduct\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwDYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T06:24:44.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\BuyProduct\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\BuyProduct\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T06:21:44.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\BuyProduct\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\BuyProduct\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-30T06:19:45.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Store1Context.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\BuyProduct\\Models\\Store1Context.cs",
+              "RelativeDocumentMoniker": "Models\\Store1Context.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\BuyProduct\\Models\\Store1Context.cs",
+              "RelativeToolTip": "Models\\Store1Context.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA1wBUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T06:19:24.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BuyProduct.http",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\BuyProduct\\BuyProduct.http",
+              "RelativeDocumentMoniker": "BuyProduct.http",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Spektra\\Task 21 (22-05-24)\\BuyProduct\\BuyProduct.http",
+              "RelativeToolTip": "BuyProduct.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-05-30T07:12:20.622Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 148,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
